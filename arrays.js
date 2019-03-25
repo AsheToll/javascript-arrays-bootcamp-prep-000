@@ -1,3 +1,13 @@
+function addElementToBeginningofArray(array, element) {
+  var newArray = [...element, array];
+  return newArray;
+}
+
+function destructivelyAddElementToBeginningOfArray(array, element) {
+  array.unshift(element);
+  return array;
+}
+
 var ingredient1 = "bread"
 var ingredient2 = "mild cheese"
 var ingredient3 = "sharp cheese"
